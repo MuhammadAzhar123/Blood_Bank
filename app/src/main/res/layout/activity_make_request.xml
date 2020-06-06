@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+    tools:context=".Activities.MakeRequestActivity">
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:textSize="24sp"
+            android:padding="18dp"
+            android:textColor="@color/black"
+            android:textStyle="bold"
+            android:text="Write your message and add an image for the community, somebody will definitely help you"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"/>
+
+        <FrameLayout
+            android:layout_margin="8dp"
+            android:background="@drawable/border_background"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+        <EditText
+            android:id="@+id/message"
+            android:layout_width="match_parent"
+            android:textColor="@color/black"
+            android:minLines="6"
+            android:hint="Message"
+            android:textAlignment="gravity"
+            android:cursorVisible="false"
+            android:background="@null"
+            android:textColorHint="@color/black"
+            android:padding="10dp"
+            android:gravity="top"
+            android:maxLines="10"
+            android:layout_height="wrap_content"/>
+
+        </FrameLayout>
+
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <ImageView
+                android:id="@+id/post_image"
+                android:padding="8dp"
+                android:src="@drawable/ic_image_black_24dp"
+                android:layout_width="150dp"
+                android:layout_height="150dp"/>
+
+            <TextView
+                android:id="@+id/choose_text"
+                android:text="@string/choose_image"
+                android:textSize="24sp"
+                android:textStyle="bold"
+                android:textAlignment="center"
+                android:gravity="center"
+                android:textColor="@color/colorPrimary"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"/>
+
+        </LinearLayout>
+
+        <Button
+            android:text="Post Request"
+            android:background="@color/colorPrimary"
+            android:textColor="@color/white"
+            android:layout_margin="30dp"
+            android:textStyle="bold"
+            android:textAllCaps="false"
+            android:textSize="18sp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"/>
+
+    </LinearLayout>
+
+</ScrollView>

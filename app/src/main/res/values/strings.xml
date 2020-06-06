@@ -1,0 +1,20 @@
+<resources>
+    <string name="app_name">Blood Bank</string>
+    <string name="SpashScreen">SplashScreenIcon</string>
+    <string name="SplashHeading">BLOOD BANK</string>
+    <string name="RegText">Your Information will be public to the Community</string>
+    <string name="hint_name">Enter your full name</string>
+    <string name="hint_city">Enter your city</string>
+    <string name="hint_mobile">Enter your mobile number</string>
+    <string name="hint_blood">Enter your blood group</string>
+    <string name="hint_password">Enter your password</string>
+    <string name="btn_submit">Submit</string>
+    <string name="hint_username">Enter your mobile number</string>
+    <string name="btn_login">Login</string>
+    <string name="txv_signup"><u>Sign up</u></string>
+    <string name="location">Choose Location</string>
+    <string name="make_request">Make Request</string>
+    <string name="choose_image"><u>Choose Image</u></string>
+
+
+</resources>
